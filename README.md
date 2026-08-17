@@ -3,8 +3,8 @@
 1. Install `sphinx` (suggestion: Use a virtual environment)
 
     ```bash
-    python -m venv rosalind-docs-env
-    source zurada-docs-env/bin/activate
+    python -m venv curie-docs-env
+    source curie-docs-env/bin/activate
     pip install sphinx sphinx-rtd-theme sphinx-tabs
     ```
 
@@ -12,10 +12,10 @@
    the project's root folder.
 
     ```bash
-    cd rosalind
+    cd curie
     # Note you can use other options besides "html" here (e.g. "latex").
     # Simply run "make" to see all available options.
     make html
     ```
 
-3. Access the `index.html` file inside `rosalind-docs/_build/html`
+3. Access the `index.html` file inside `curie-docs/_build/html`

@@ -8,7 +8,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Rosalind User Documentation'
+project = 'Curie User Documentation'
 copyright = '2026, ITS - Research Computing'
 author = 'ITS - Research Computing'
 
