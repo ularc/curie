@@ -6,7 +6,7 @@ Accounts and Support
 Request an account
 ==================
 
-Please ensure that you have read :ref:`Rosalind's System Use Policies <rosalind_system_use_policies>`
+Please ensure that you have read :ref:`Curie's System Use Policies <curie_system_use_policies>`
 and have agreed to it before requesting an account. Keep in mind that
 **each applicant must log in and complete their own account request using their unique ULINK account**.
 

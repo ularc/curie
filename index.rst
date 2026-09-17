@@ -12,4 +12,3 @@ Curie User Documentation
    policies/index
    accounts_and_support/index
    gettingstarted/index
-   usecases/index

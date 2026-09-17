@@ -6,13 +6,13 @@ Getting Started
 Usage Agreement
 ===============
 
-Please ensure that you have read :ref:`Rosalind's System Use Policies <rosalind_system_use_policies>`
+Please ensure that you have read :ref:`Curie's System Use Policies <curie_system_use_policies>`
 and have agreed to it before requesting an account.
 
-Connecting to Rosalind
+Connecting to Curie
 ======================
 
-There are a couple of ways to connect and utilize the Rosalind system. Please note, that you must be connected to either the University of Louisville campus network or the UofL Global Protect VPN.
+There are a couple of ways to connect and utilize the Curie system. Please note, that you must be connected to either the University of Louisville campus network or the UofL Global Protect VPN using a NIST 800-171 secured system.
 
 SFTP
 ----
@@ -29,7 +29,7 @@ SFTP
           * - Key
             - Value
           * - Host
-            - rosalind.rc.louisville.edu
+            - curie.rc.louisville.edu
           * - Username
             - your ULINK ID (i.e., fmlast01)
           * - Password
@@ -38,9 +38,10 @@ SFTP
             - 22
       
       .. note::
-        If your client needs a URL rather than ``host`` + ``port`` then you can try ``sftp://rosalind.rc.louisville.edu`` instead
+        
+        If your client needs a URL rather than ``host`` + ``port`` then you can try ``sftp://curie.rc.louisville.edu`` instead
   
-  #. Make sure you check your phone for a DUO push notification
+  #. Follow the DUO prompt
 
 **Command Line**
   
@@ -50,11 +51,11 @@ SFTP
   
       .. code-block::
   
-          sftp ${USER}@rosalind.rc.louisville.edu
+          sftp ${USER}@curie.rc.louisville.edu
   
-  #. Enter your UofL password, and check your phone for a DUO push.
+  #. Enter your UofL password, and follow the DUO instructions.
 
-  This will start an SFTP session, and after login you will be in a private directory on Rosalind. You can use the following commands to interact with the session:
+  This will start an SFTP session, and after login you will be in a private directory on Curie. You can use the following commands to interact with the session:
   
   .. list-table:: SFTP commands
       :header-rows: 1
@@ -82,7 +83,7 @@ SFTP
 
   .. code-block:: bash
 
-    C:\Users\fmlast01> sftp fmlast01@rosalind.rc.louisville.edu
+    C:\Users\fmlast01> sftp fmlast01@curie.rc.louisville.edu
     This system is the property of the University of Louisville.
 
     Use of the system is for authorized users only. It is the policy of the
@@ -105,29 +106,39 @@ SFTP
     AFTER TYPING YOUR PASSWORD, check your phone for a
     DUO prompt.
 
-    fmlast01@rosalind.rc.louisville.edu's password:
-    Autopushing login request to phone...
+    (fmlast01@curie.rc.louisville.edu) password:
+    (fmlast01@curie.rc.louisville.edu) Duo two-factor login for fmlast01
+
+    Enter a passcode or select one of the following options:
+
+    1. Duo Push to XXX-XXX-4927
+    2. Phone call to XXX-XXX-4927
+    3. SMS passcodes to XXX-XXX-4927
+
+    Passcode or option (1-3): 1
     Success. Logging you in...
-    Connected to rosalind.rc.louisville.edu.
+    Success. Logging you in...
+    Authorized users only. All activity may be monitored and reported.
+    Last login: Thu Sep 17 12:19:08 2026 from 136.165.91.166
     sftp> 
     sftp> pwd
-    Remote working directory: /mnt/rosalind/private/fmlast01
+    Remote working directory: /home/fmlast01
     sftp> 
     sftp> ls
     sftp> 
     sftp> put C:\Users\fmlast01\Downloads\Image.jpg .
-    Uploading C:/Users/fmlast01/Downloads/Image.jpg to /mnt/rosalind/private/fmlast01/./Image.jpg
+    Uploading C:/Users/fmlast01/Downloads/Image.jpg to /home/fmlast01/./Image.jpg
     Image.jpg                                                                                                                        100% 7912KB   1.5MB/s   00:05
     sftp> 
-    sftp> get /mnt/Rosalind/private/fmlast01/./Image.jpg .\mytestimage.jpg
-    Fetching /mnt/rosalind/private/fmlast01/./Image.jpg to ./mytestimage.jpg
+    sftp> get /home/fmlast01/./Image.jpg .\mytestimage.jpg
+    Fetching /home/fmlast01/./Image.jpg to ./mytestimage.jpg
     Image.jpg                                                                                                                        100% 7912KB 517.7KB/s   00:15
     sftp> 
     sftp> ls
     Image.jpg
     sftp> 
     sftp> pwd
-    Remote working directory: /mnt/rosalind/private/fmlast01
+    Remote working directory: /home/fmlast01
     sftp> 
     sftp> exit
 
@@ -142,7 +153,7 @@ SSH
           * - Key
             - Value
           * - Host
-            - rosalind.rc.louisville.edu
+            - curie.rc.louisville.edu
           * - Username
             - your ULINK ID (i.e. fmlast01)
           * - Password
@@ -150,8 +161,8 @@ SSH
           * - Port
             - 22
   
-  #. Make sure you check your phone for a DUO push notification
+  #. Follow the DUO prompt
   
 .. note::
     
-  Upon connecting to Rosalind, by default, you will be in your private directory.
+  Upon connecting to Curie, by default, you will be in your private directory.
