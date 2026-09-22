@@ -9,7 +9,7 @@ Curie's System Use Policies
 User Account
 -------------
 
-#. Curie is a secure system. All access should be from an approved NIST 800-171 secured system. Users will require CUI training as well as any perform any other processes as instructed prior to approval or creation for an account.
+#. Curie is a secure system. All access should be from an approved NIST 800-171 secured system. Users will require CUI training as well as review the required cybersecurity procedures and processes as instructed prior to approval or creation for an account.
 #. Account sharing is prohibited. An account shared amongst multiple users can be a security risk and any such sharing can lead to the suspension of the account.
 #. Shared systems like LARCC, BigData, Rosalind, Curie, and Zurada should be used mindfully. Negative actions of one user (e.g., excessive number of file transfers leading to network saturation) can negatively impact the other users on the systems.
 #. Commercial activities that personally benefit a user and cryptocurrency related work (bitcoin mining) are prohibited on the systems maintained by the Research Computing group. Any activity of this nature when detected will lead to the suspension of the account.
